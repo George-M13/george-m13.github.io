@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Title - George Moore</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-900 text-white">
+    <!-- Navbar -->
+    <nav class="p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <!-- Logo -->
+            <div class="hidden md:flex space-x-2">
+                <a href="index.html" class="text-blue-600 text-2xl font-bold">George </a>
+                <a href="index.html" class="text-white text-2xl font-bold"> Moore</a>
+            </div>
+            <div class="hidden md:flex space-x-4">
+                <a href="index.html" class="text-white px-4 py-2 hover:text-blue-600 transition-all">Home</a>
+                <a href="index.html#projects"
+                    class="text-white px-4 py-2 hover:text-blue-600 transition-all">Projects</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Project Details Section -->
+    <div class="container mx-auto px-6 py-16">
+        <h1 class="text-4xl md:text-6xl font-bold text-center" id="project-title">Project Title</h1>
+        <p class="text-lg text-gray-300 text-center mt-4" id="project-subtitle">Short project description</p>
+
+        <!-- Image -->
+        <div class="flex justify-center mt-8">
+            <img src="default-image.jpg" alt="Project Image" class="w-80 md:w-96 rounded-lg shadow-lg"
+                id="project-image">
+        </div>
+
+        <!-- Project Description -->
+        <div class="mt-12 text-lg text-gray-300 leading-relaxed">
+            <p id="project-description">
+                Detailed project description goes here. Explain what the project does, its purpose, and key highlights.
+            </p>
+
+            <h2 class="text-2xl font-semibold text-white mt-6">Key Features</h2>
+            <ul class="list-disc list-inside mt-2" id="project-features">
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+                <li>Feature 3</li>
+            </ul>
+
+            <h2 class="text-2xl font-semibold text-white mt-6">Technologies Used</h2>
+            <ul class="list-disc list-inside mt-2" id="project-tech">
+                <li>Technology 1</li>
+                <li>Technology 2</li>
+                <li>Technology 3</li>
+            </ul>
+
+            <h2 class="text-2xl font-semibold text-white mt-6">Screenshots</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4" id="project-screenshots">
+                <img src="default-screenshot1.jpg" alt="Screenshot 1" class="rounded-lg shadow-lg">
+                <img src="default-screenshot2.jpg" alt="Screenshot 2" class="rounded-lg shadow-lg">
+            </div>
+
+            <h2 class="text-2xl font-semibold text-white mt-6">Live Demo</h2>
+            <p class="mt-2">
+                <a href="#" target="_blank" class="text-blue-500 hover:underline" id="project-demo-link">
+                    Click here to visit the live demo
+                </a>
+            </p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-center py-6">
+        <p>&copy; 2025 George Moore. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
