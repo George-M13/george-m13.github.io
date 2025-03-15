@@ -8,9 +8,9 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
 </head>
 
-<body class="bg-gray-900">
+<body class="bg-gray-800">
     <!-- Navbar -->
-    <nav class=" p-4">
+    <nav class="p-4 bg-gray-800">
         <div class="container mx-auto flex justify-between items-center">
             <!-- Logo -->
             <div class="hidden md:flex space-x-2">
@@ -47,55 +47,52 @@
     </script>
 
     <!-- Hero Section with Image -->
-    <div class="container mx-auto px-6 py-16 flex flex-col md:flex-row items-center">
-        <!-- Text Block (Left) -->
-        <div class="text-white md:w-1/2 text-center md:text-left">
-            <h1 class="text-4xl md:text-7xl font-bold">Hello,</h1>
-            <h2 class="text-5xl md:text-7xl font-extrabold mt-2">I'm George Moore</h2>
-            <p class="text-2xl md:text-3xl font-semibold mt-2">
-                I'm a <span class="text-blue-500">Unity XR Developer</span>
-            </p>
-            <p class="text-lg md:text-xl text-gray-300 mt-4">
-                I specialize in creating immersive experiences using Unity and XR technologies.
-            </p>
+    <header class="p-4 bg-gray-900">
+        <div class="container bg-gray-900 mx-auto px-6 py-16 flex flex-col md:flex-row items-center">
+            <!-- Text Block (Left) -->
+            <div class="text-white md:w-1/2 text-center md:text-left">
+                <h1 class="text-4xl md:text-7xl font-bold">Hello,</h1>
+                <h2 class="text-5xl md:text-7xl font-extrabold mt-2">I'm George Moore</h2>
+                <p class="text-2xl md:text-3xl font-semibold mt-2">
+                    I'm a <span class="text-blue-500">XR Unity Developer</span>
+                </p>
+                <p class="text-lg md:text-xl text-gray-300 mt-4">
+                    I am currently working for Immersify as their XR Unity Developer where I specialise in creating
+                    immersive experience using Unity, C# and various XR technologies.
+                </p>
+            </div>
 
-            <!-- Social Icons -->
-            <div class="mt-6 flex justify-center md:justify-start space-x-4">
-                <a href="#" class="text-blue-400 hover:text-blue-300 text-2xl">
-                    <i class="fab fa-x-twitter"></i>
-                </a>
-                <a href="#" class="text-blue-400 hover:text-blue-300 text-2xl">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="#" class="text-blue-400 hover:text-blue-300 text-2xl">
-                    <i class="fab fa-github"></i>
-                </a>
+
+            <!-- Image Block (Right) -->
+            <div class="text-white md:w-1/2 flex justify-center md:justify-end mt-8 md:mt-0">
+                <img src="./Images/home/george.png" alt="George Moore" class="w-48 md:w-64 rounded-lg shadow-lg">
             </div>
         </div>
-
-        <!-- Image Block (Right) -->
-        <div class="text-white md:w-1/2 flex justify-center md:justify-end mt-8 md:mt-0">
-            <img src="your-image.jpg" alt="George Moore" class="w-48 md:w-64 rounded-lg shadow-lg">
-        </div>
-    </div>
+    </header>
 
 
     <!-- Projects Grid -->
-    <div class="container mx-auto px-4 py-12">
+    <div class="container bg-gray-800 mx-auto px-4 py-12">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <!-- Project 1 -->
             <a href="immersify.html">
                 <div
-                    class="bg-gray-900 rounded-lg border border-gray-500 shadow-lg overflow-hidden transition-all transform hover:scale-105 hover:shadow-xl hover:bg-gray-800 hover:border-2 hover:border-blue-800">
+                    class="bg-gray-900 rounded-lg border border-gray-500 shadow-lg overflow-hidden transition-all transform hover:scale-105 hover:shadow-xl hover:border-2 hover:border-blue-800">
                     <img src="./Images/ImmersifyPlatform/ImmersifyLogo.jpg" alt="Immersify"
                         class="w-full h-48 object-cover">
                     <div class="p-6 text-white">
-                        <h3 class="text-xl font-bold">Immersify</h3>
-                        <p class="mt-2">Dental and Nursing education app</p>
+                        <h3 class="text-xl font-bold mb-1">Immersify</h3>
+                        <p class="mb-1">Dental and Nursing education app</p>
+                        <div class="flex flex-wrap space-x-2">
+                            <span class="text-gray-400 py-1 text-sm rounded">Unity</span>
+                            <span class="text-gray-400 py-1 text-sm rounded">C#</span>
+                            <span class="text-gray-400 py-1 text-sm rounded">XR</span>
+                        </div>
                     </div>
                 </div>
             </a>
         </div>
+
     </div>
 
 
