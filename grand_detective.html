@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Grand Detective de Souris - Project Details</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-800 text-white">
+    <!-- Navbar -->
+    <nav class="p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <!-- Logo -->
+            <div class="hidden md:flex space-x-2">
+                <a href="index.html" class="text-blue-600 text-2xl font-bold">George </a>
+                <a href="index.html" class="text-white text-2xl font-bold"> Moore</a>
+            </div>
+            <div class="hidden md:flex space-x-4">
+                <a href="index.html" class="text-white px-4 py-2 hover:text-blue-600 transition-all">Home</a>
+                <a href="index.html#projects"
+                    class="text-white px-4 py-2 hover:text-blue-600 transition-all">Projects</a>
+            </div>
+        </div>
+    </nav>
+    <header class="bg-gray-900">
+        <div class="container bg-gray-900 mx-auto flex flex-col md:flex-row items-center">
+            <!-- Left Section -->
+            <div class="text-white md:w-1/2 px-6 text-center md:text-left">
+                <h1 class="text-4xl md:text-6xl font-bold">Le Grand Detective de Souris</h1>
+                <p class="text-lg text-gray-300 mt-4">Second year university project</p>
+            </div>
+
+            <!-- Right Section with Image and Gradient -->
+            <div class="md:w-1/2 mt-8 md:mt-0 relative w-full h-48 md:h-50">
+                <!-- The image is set to cover the full height and width of the container with no padding -->
+                <img src="./Images/GrandDetective/GrandDetectiveThumbnial.png" alt="Le Grand Detective de Souris"
+                    class="object-cover w-full h-full opacity-75" />
+                <div class="absolute inset-0 bg-gradient-to-r from-gray-900 to-transparent"></div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <div class="container bg-gray-800 mx-auto px-6 py-16">
+        <!-- Video -->
+        <div class="max-w-4xl mx-auto">
+            <div class="mb-12">
+                <video class="w-full rounded-lg shadow-lg" controls
+                    poster="./Images/GrandDetective/GrandDetectiveSmall.png">
+                    <source src="./Videos/GrandDetective/GrandDetective.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+            </div>
+        </div>
+
+        <!-- Project Description -->
+        <section class="mt-16 bg-gray-900 p-10 rounded-xl shadow-lg">
+            <div class="text-start">
+                <h1 class="text-3xl font-bold text-white">Project Overview</h1>
+                <div class="mt-12 text-lg text-gray-300 leading-relaxed">
+                    <p>
+                        Le Grand Detective de Souris was a game I developed with my team in my second year of
+                        university. It was a first-person parkour game where players controlled Big Cheese, a disgraced
+                        detective investigating a bomb threat in a cheese factory. <br><br>
+
+                        As a Gameplay Programmer, I was responsible for developing the parkour movement system, which
+                        included running, wall-running, sliding, climbing, and pipe swinging. This project was
+                        particularly challenging as it was our first fully-fledged 3D game, and the ambitious concept
+                        pushed us to refine our skills. <br><br>
+
+                        This game also marked my first experience with shader programming, where I created molten cheese
+                        shaders, a frost effect for the screen, and a heat haze shader to enhance the atmosphere.
+                        Additionally, it was my first time working in a team on a 3D project, making it a key moment in
+                        developing my teamwork and communication skills, which I continue to improve. <br><br>
+
+                        It was also my first exposure to Agile development. While we didn’t fully grasp it at the time,
+                        we aimed to implement project management strategies to stay organized—an approach we later
+                        refined in 6 Shots.
+                    </p>
+                </div>
+
+                <div class="mt-16 space-y-12">
+                    <!-- Key Features -->
+                    <div>
+                        <h2 class="text-2xl font-semibold text-white mb-6">Key Features</h2>
+                        <ul class="list-disc list-inside space-y-4">
+                            <li class="bg-gray-800 p-4 rounded-lg shadow-md text-white">
+                                Parkour Movement System
+                            </li>
+                            <li class="bg-gray-800 p-4 rounded-lg shadow-md text-white">
+                                Stylized Shader Effects
+                            </li>
+                            <li class="bg-gray-800 p-4 rounded-lg shadow-md text-white">
+                                Ambitious 3D Level Design
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Technologies Used -->
+                    <div>
+                        <h2 class="text-2xl font-semibold text-white mb-6">Technologies Used</h2>
+                        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                            <div class="bg-gray-800 p-4 rounded-lg text-center shadow-md">
+                                <h3 class="text-white font-bold">Engine</h3>
+                                <p class="text-gray-300">Unity</p>
+                            </div>
+                            <div class="bg-gray-800 p-4 rounded-lg text-center shadow-md">
+                                <h3 class="text-white font-bold">Language</h3>
+                                <p class="text-gray-300">C#, HLSL</p>
+                            </div>
+                            <div class="bg-gray-800 p-4 rounded-lg text-center shadow-md">
+                                <h3 class="text-white font-bold">Platform</h3>
+                                <p class="text-gray-300">PC</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-white py-8 text-center">
+        <p>&copy; 2025 George Moore. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

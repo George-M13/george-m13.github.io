@@ -29,9 +29,7 @@
             <!-- Navigation Links -->
             <div class="hidden md:flex space-x-4">
                 <a href="#" class="text-white px-4 py-2 hover:text-blue-600  transition-all">Home</a>
-                <a href="#" class="text-white px-4 py-2 hover:text-blue-600  transition-all">About</a>
-                <a href="#" class="text-white px-4 py-2 hover:text-blue-600  transition-all">Projects</a>
-                <a href="#" class="text-white px-4 py-2 hover:text-blue-600  transition-all">Contact</a>
+                <a href="#projects" class="text-white px-4 py-2 hover:text-blue-600  transition-all">Projects</a>
             </div>
         </div>
     </nav>
@@ -47,7 +45,7 @@
     </script>
 
     <!-- Hero Section with Image -->
-    <header class="p-4 bg-gray-900">
+    <header class="p-4 bg-gray-900" id="about">
         <div class="container bg-gray-900 mx-auto px-6 py-16 flex flex-col md:flex-row items-center">
             <!-- Text Block (Left) -->
             <div class="text-white md:w-1/2 text-center md:text-left">
@@ -56,77 +54,175 @@
                 <p class="text-2xl md:text-3xl font-semibold mt-2">
                     I'm a <span class="text-blue-500">XR Unity Developer</span>
                 </p>
-                <p class="text-lg md:text-xl text-gray-300 mt-4">
-                    I am currently working for Immersify as their XR Unity Developer where I specialise in creating
+                <p class="text-lg md:text-xl text-gray-300 mt-6">
+                    I am currently working for Immersify as an XR Unity Developer where I specialise in creating
                     immersive experience using Unity, C# and various XR technologies.
                 </p>
+                <div class="mt-6 text-start">
+                    <div class="space-x-4 inline-flex justify-start">
+                        <a href="https://github.com/George-M13" target="_blank" class="items-center inline-flex">
+                            <img src="./Images/icons/github-mark-white.png" alt="Github Icon" class="mr-2 w-8 h-8">
+                        </a>
+                        <a href="https://www.linkedin.com/in/george-moore-4b155019b/" target="_blank"
+                            class="items-center inline-flex">
+                            <img src="./Images/icons/InBug-White.png" alt="LinkedI Icon" class="mr-2 w-8 h-8">
+                        </a>
+                    </div>
+                </div>
             </div>
 
 
             <!-- Image Block (Right) -->
-            <div class="text-white md:w-1/2 flex justify-center md:justify-end mt-8 md:mt-0">
+            <div class="text-white md:w-1/2 flex flex-col justify-center items-center mt-8 md:mt-0">
                 <img src="./Images/home/george.png" alt="George Moore" class="w-48 md:w-64 rounded-lg shadow-lg">
             </div>
+
         </div>
+
+
+
     </header>
 
 
     <!-- Projects Grid -->
-    <div class="container bg-gray-800 mx-auto px-4 py-12">
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <!-- Project 1 -->
-            <a href="immersify.html">
-                <div
-                    class="bg-gray-900 rounded-lg border border-gray-500 shadow-lg overflow-hidden transition-all transform hover:scale-105 hover:shadow-xl hover:border-2 hover:border-blue-800">
-                    <img src="./Images/ImmersifyPlatform/IM_LogoPNG.svg" alt="Immersify"
-                        class="w-full h-48 object-cover">
-                    <div class="p-6 text-white">
-                        <h3 class="text-xl font-bold mb-1">Immersify</h3>
-                        <p class="mb-1">Dental and Nursing education app</p>
-                        <div class="flex flex-wrap space-x-2">
-                            <span class="text-gray-400 py-1 text-sm rounded">Unity</span>
-                            <span class="text-gray-400 py-1 text-sm rounded">C#</span>
-                            <span class="text-gray-400 py-1 text-sm rounded">Mobile</span>
-                            <span class="text-gray-400 py-1 text-sm rounded">XR</span>
+    <section id="projects">
+        <div class="container bg-gray-800 mx-auto px-4 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <a href="immersify.html">
+                    <div
+                        class="bg-gray-900 rounded-lg border border-gray-500 shadow-lg overflow-hidden transition-all transform hover:scale-105 hover:shadow-xl hover:border-2 hover:border-blue-800">
+                        <img src="./Images/ImmersifyPlatform/IM_LogoPNG.svg" alt="Immersify"
+                            class="w-full h-48 object-cover">
+                        <div class="p-6 text-white">
+                            <h3 class="text-xl font-bold mb-1">Immersify</h3>
+                            <p class="mb-1">Mobile Dental and Nursing education platfrom rebuild</p>
+                            <div class="flex flex-wrap space-x-2">
+                                <span class="text-gray-400 py-1 text-sm rounded">Unity</span>
+                                <span class="text-gray-400 py-1 text-sm rounded">C#</span>
+                                <span class="text-gray-400 py-1 text-sm rounded">Mobile</span>
+                                <span class="text-gray-400 py-1 text-sm rounded">XR</span>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </a>
-            <a href="bubble_boogie.html">
-                <div
-                    class="bg-gray-900 rounded-lg border border-gray-500 shadow-lg overflow-hidden transition-all transform hover:scale-105 hover:shadow-xl hover:border-2 hover:border-blue-800">
-                    <img src="./Images/BubbleBoogie/BubbleBoogieLogo.png" alt="Bubble Boogie"
-                        class="w-full h-48 object-cover">
-                    <div class="p-6 text-white">
-                        <h3 class="text-xl font-bold mb-1">Bubble Boogie</h3>
-                        <p class="mb-1">VR Dance/Rythm Game</p>
-                        <div class="flex flex-wrap space-x-2">
-                            <span class="text-gray-400 py-1 text-sm rounded">Unity</span>
-                            <span class="text-gray-400 py-1 text-sm rounded">C#</span>
-                            <span class="text-gray-400 py-1 text-sm rounded">VR</span>
+                </a>
+                <a href="bubble_boogie.html">
+                    <div
+                        class="bg-gray-900 rounded-lg border border-gray-500 shadow-lg overflow-hidden transition-all transform hover:scale-105 hover:shadow-xl hover:border-2 hover:border-blue-800">
+                        <img src="./Images/BubbleBoogie/BubbleBoogieLogo.png" alt="Bubble Boogie"
+                            class="w-full h-48 object-cover">
+                        <div class="p-6 text-white">
+                            <h3 class="text-xl font-bold mb-1">Bubble Boogie</h3>
+                            <p class="mb-1">VR Dance/Rhythm Game made for Meta Quest</p>
+                            <div class="flex flex-wrap space-x-2">
+                                <span class="text-gray-400 py-1 text-sm rounded">Unity</span>
+                                <span class="text-gray-400 py-1 text-sm rounded">C#</span>
+                                <span class="text-gray-400 py-1 text-sm rounded">VR</span>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </a>
-            <a href="frigid_launcher.html">
-                <div
-                    class="bg-gray-900 rounded-lg border border-gray-500 shadow-lg overflow-hidden transition-all transform hover:scale-105 hover:shadow-xl hover:border-2 hover:border-blue-800">
-                    <img src="./Images/FrigidLauncher/Promotional_Art_4.png" alt="Frigid Launchger Logo"
-                        class="w-full h-48 object-cover">
-                    <div class="p-6 text-white">
-                        <h3 class="text-xl font-bold mb-1">Frigid Launcher</h3>
-                        <p class="mb-1">Casiual Mobile Game</p>
-                        <div class="flex flex-wrap space-x-2">
-                            <span class="text-gray-400 py-1 text-sm rounded">Unity</span>
-                            <span class="text-gray-400 py-1 text-sm rounded">C#</span>
-                            <span class="text-gray-400 py-1 text-sm rounded">Mobile</span>
+                </a>
+                <a href="candy_collector.html">
+                    <div
+                        class="bg-gray-900 rounded-lg border border-gray-500 shadow-lg overflow-hidden transition-all transform hover:scale-105 hover:shadow-xl hover:border-2 hover:border-blue-800">
+                        <img src="./Images/CandyCollector/CandyLogo.png" alt="Candy Collector Logo"
+                            class="w-full h-48 object-cover">
+                        <div class="p-6 text-white">
+                            <h3 class="text-xl font-bold mb-1">Candy Collector</h3>
+                            <p class="mb-1">8-bits to infinity VimJam game jam</p>
+                            <div class="flex flex-wrap space-x-2">
+                                <span class="text-gray-400 py-1 text-sm rounded">Unity</span>
+                                <span class="text-gray-400 py-1 text-sm rounded">C#</span>
+                                <span class="text-gray-400 py-1 text-sm rounded">PC</span>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </a>
-        </div>
+                </a>
+                <a href="frigid_launcher.html">
+                    <div
+                        class="bg-gray-900 rounded-lg border border-gray-500 shadow-lg overflow-hidden transition-all transform hover:scale-105 hover:shadow-xl hover:border-2 hover:border-blue-800">
+                        <img src="./Images/FrigidLauncher/Promotional_Art_4.png" alt="Frigid Launchger Logo"
+                            class="w-full h-48 object-cover">
+                        <div class="p-6 text-white">
+                            <h3 class="text-xl font-bold mb-1">Frigid Launcher</h3>
+                            <p class="mb-1">Casual mobile wave based "shooter" game</p>
+                            <div class="flex flex-wrap space-x-2">
+                                <span class="text-gray-400 py-1 text-sm rounded">Unity</span>
+                                <span class="text-gray-400 py-1 text-sm rounded">C#</span>
+                                <span class="text-gray-400 py-1 text-sm rounded">Mobile</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="beast_mythos.html">
+                    <div
+                        class="bg-gray-900 rounded-lg border border-gray-500 shadow-lg overflow-hidden transition-all transform hover:scale-105 hover:shadow-xl hover:border-2 hover:border-blue-800">
+                        <img src="./Images/BeastMythos/BeastMythos.png" alt="Beast Mythos Promo Art"
+                            class="w-full h-48 object-cover">
+                        <div class="p-6 text-white">
+                            <h3 class="text-xl font-bold mb-1">Beast Mythos</h3>
+                            <p class="mb-1">3rd person action game made in my final year of
+                                university</p>
+                            <div class="flex flex-wrap space-x-2">
+                                <span class="text-gray-400 py-1 text-sm rounded">Unity</span>
+                                <span class="text-gray-400 py-1 text-sm rounded">C#</span>
+                                <span class="text-gray-400 py-1 text-sm rounded">PC</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="six_shots.html">
+                    <div
+                        class="bg-gray-900 rounded-lg border border-gray-500 shadow-lg overflow-hidden transition-all transform hover:scale-105 hover:shadow-xl hover:border-2 hover:border-blue-800">
+                        <img src="./Images/SixShots/6shotsThumbnail.png" alt="Six shots promo art"
+                            class="w-full h-48 object-cover">
+                        <div class="p-6 text-white">
+                            <h3 class="text-xl font-bold mb-1">6 Shots</h3>
+                            <p class="mb-1">Third person shooter made in my second year of university</p>
+                            <div class="flex flex-wrap space-x-2">
+                                <span class="text-gray-400 py-1 text-sm rounded">Unity</span>
+                                <span class="text-gray-400 py-1 text-sm rounded">C#</span>
+                                <span class="text-gray-400 py-1 text-sm rounded">PC</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="grand_detective.html">
+                    <div
+                        class="bg-gray-900 rounded-lg border border-gray-500 shadow-lg overflow-hidden transition-all transform hover:scale-105 hover:shadow-xl hover:border-2 hover:border-blue-800">
+                        <img src="./Images/GrandDetective/GrandDetectiveThumbnial.png"
+                            alt="Le Grand Detective de Souris promo art" class="w-full h-48 object-cover">
+                        <div class="p-6 text-white">
+                            <h3 class="text-xl font-bold mb-1">Le Grand Detective de Souris</h3>
+                            <p class="mb-1">First person platformer made in my second year of university</p>
+                            <div class="flex flex-wrap space-x-2">
+                                <span class="text-gray-400 py-1 text-sm rounded">Unity</span>
+                                <span class="text-gray-400 py-1 text-sm rounded">C#</span>
+                                <span class="text-gray-400 py-1 text-sm rounded">PC</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="mobile_games.html">
+                    <div
+                        class="bg-gray-900 rounded-lg border border-gray-500 shadow-lg overflow-hidden transition-all transform hover:scale-105 hover:shadow-xl hover:border-2 hover:border-blue-800">
+                        <img src="./Images/MobileGames/MobileGames.png" alt="Mobile Games promo art"
+                            alt="Le Grand Detective de Souris promo art" class="w-full h-48 object-cover">
+                        <div class="p-6 text-white">
+                            <h3 class="text-xl font-bold mb-1">Mobile Games</h3>
+                            <p class="mb-1">University side projects</p>
+                            <div class="flex flex-wrap space-x-2">
+                                <span class="text-gray-400 py-1 text-sm rounded">Unity</span>
+                                <span class="text-gray-400 py-1 text-sm rounded">C#</span>
+                                <span class="text-gray-400 py-1 text-sm rounded">Mobile</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
 
-    </div>
+        </div>
+    </section>
 
 
     <!-- Footer -->
